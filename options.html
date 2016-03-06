@@ -1,0 +1,46 @@
+<!--
+/**
+ * Chrome extension - Magento Autoform
+ *
+ * @author Yireo (info@yireo.com)
+ * @copyright Copyright 2014
+ * @license GNU Public License
+ * @link http://www.yireo.com
+ */
+-->
+<html>
+<head>
+<title>Magento Autoforms</title>
+<style>
+div#autoform {
+    background-color: #eee;
+    width: 680px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#fields {
+}
+div#button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+</style>
+</head>
+<link rel="stylesheet" href="bootstrap.min.css">
+<script src="fields.js"></script>
+<script src="options.js"></script>
+<body>
+    <div id="autoform">
+        <h1>Magento Autoform Fields</h1>
+        <div id="button">
+            <button class="btn btn-primary btn-lg" id="save">Save</button>
+        </div>
+            <div id="status">
+            </div>
+        <form class="form-horizontal" role="form">
+            <div id="fields"></div>
+        </form>
+    </div>
+</body>
+</html>
